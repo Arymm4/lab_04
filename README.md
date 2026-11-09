@@ -1,17 +1,49 @@
-# lab_04
 
-A new Flutter project.
+# Lab 04: Navigation and Routing
 
-## Getting Started
+## TMA3084 Software Engineering Laboratory
 
-This project is a starting point for a Flutter application.
+### Part 1: Pizza Store App
 
-A few resources to get you started if this is your first Flutter project:
+This Flutter application demonstrates named routes and navigation between different screens.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Features:
+- Pizza Store Menu
+- Pepperoni Pizza Detail Screen
+- Margherita Pizza Detail Screen
+- Box of Fries Detail Screen
+- Back button navigation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Part 2: Vibe Coding Task 4 - AI as Pair Programmer
+
+AI was used to develop an Order Summary Screen.
+
+Features:
+- Display item name
+- Display quantity
+- Calculate total price using orderTotal()
+- Display total price in RM
+- Back button navigation
+
+### Widget Testing
+
+Four widget tests were implemented:
+
+1. Menu displays three items.
+2. Tapping a card opens its detail screen.
+3. Back button returns to the menu.
+4. Order Summary displays RM25.00.
+
+### Running the Application
+
+flutter pub get
+flutter run -d chrome
+
+### Testing
+
+flutter analyze
+flutter test
+
+### CI/CD
+
+GitHub Actions is used to automatically run Flutter analysis and widget tests.
